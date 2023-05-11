@@ -21,10 +21,13 @@
                 <i class='bx bx-window-close' onclick="hideMenu()" ></i>
                <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURES</a></li>
-                    <li><a href="">BLOGE</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#home">TOUR</a></li>
+                    <li><a href="#footer-id">ABOUT</a></li>
+                    <li><a href="#course-id">COURES</a></li>
+                    <li><a href="#campus-id">BLOGE</a></li>
+                    <li><a href="#testmonials">Comment</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
             </div>
             <i class='bx bx-menu' onclick="showMenu()"></i>
@@ -36,7 +39,7 @@
 </div>
     </section>
     <!---course-->
-    <section class="course">
+    <section class="course" id="course-id">
         <h1>YOUR GOIG FALL IN THE LOVE</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, possimus facere! Eligendi ipsum ipsa odio! Corporis, aliquam fuga aperiam, ipsa magni eum totam a itaque error reprehenderit, impedit nulla vitae.</p>
         <div class="row">
@@ -62,7 +65,7 @@
         <!-- campus -->
     </section>
     <div class="campus-baground">
-    <section class="campus">
+    <section class="campus" id="campus-id">
         <h1>EXPLORE THE WORLD</h1>
         <p>Lorem ipsum dolor sit amet.</p>
         <div class="row">
@@ -89,7 +92,7 @@
     </div>
     <!--facilities-->
     <div class="TOUR">
-    <section class="facilities">
+    <section class="facilities" id="home">
     <h1>POPULER TOUR</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sit!</p>
         <div class="row">
@@ -136,7 +139,7 @@
 </div>
         <!-- testmonials -->
 <div class="user">
-<section class="testmonials">   
+<section class="testmonials" id="testmonials">   
     <h1 class="header-user">WE MAKE PEOPLE HAPPY</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dicta?</p>
     <div class="row">
@@ -171,16 +174,38 @@
     </div>
 </section>
 </div>
-
-
+<div class="all-center">
+    <div class="center">
+        <section class="center-col" id="login">
+            <h1>START BOOKING</h1>
+            <form method="post">
+                <div class="text_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="text_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+                    Not a memmber <a href="#">Signup</a>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
   <!-- ---call to action---- -->
-  <section class="cta">
+  <section class="cta" id="Contact">
     <h1>Traveling the best expirense</h1>
     <a href="" class="hero-btn">Contact Us</a>
   </section>
   <!-- ----foter--- -->
 
-  <section class="footer">
+  <section class="footer" id="footer-id">
     <h4>About Us</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias inventore suscipit iure omnis amet voluptate ullam eos blanditiis repellat earum consectetur aut,<br> assumenda ea voluptatem deserunt laboriosam voluptas deleniti! Delectus?</p>
     <div class="icon">
