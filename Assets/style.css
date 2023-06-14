@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(55, 85, 43, 0.7),rgba(0, 0, 0, 0.7)),url(hero.jpg);
+    background-image: linear-gradient(rgba(55, 85, 43, 0.7),rgba(0, 0, 0, 0.7)),url(/Src/hero.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -192,7 +192,7 @@ h3{
     padding: 50px;
 }
 .campus-baground{
-    background-image: linear-gradient(rgba(55, 85, 43, 0.7),rgba(0, 0, 0, 0.7)),url(hero.jpg);
+    background-image: linear-gradient(rgba(55, 85, 43, 0.7),rgba(0, 0, 0, 0.7)),url(/Src/hero.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -299,7 +299,7 @@ background-color: #ffffff9d ;
     border-color: #000000;
 }
 .user{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.7),rgba(0, 0, 0, 0.7)),url(nat-6.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.7),rgba(0, 0, 0, 0.7)),url(/Src/nat-6.jpg);
     background-position: center;
     background-size: cover;
     position: relative;   
@@ -371,7 +371,7 @@ background-color: #ffffff9d ;
     margin-top: 20px;
     margin-bottom:20px ;
     width: 50%;
-    background-image:linear-gradient(rgba(77, 71, 89, 0.7),rgba(0, 0, 0, 0.7)),url(nat-6.jpg);
+    background-image:linear-gradient(rgba(77, 71, 89, 0.7),rgba(0, 0, 0, 0.7)),url(/Src/nat-6.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -481,7 +481,7 @@ input[type="submit"]:hover{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(21, 80, 22, 0.7),rgba(0, 0, 0, 0.7)),url(nat-9.jpg);
+    background-image: linear-gradient(rgba(21, 80, 22, 0.7),rgba(0, 0, 0, 0.7)),url(/Src/nat-9.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
